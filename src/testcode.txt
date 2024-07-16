@@ -1,0 +1,6 @@
+// 壁を作るテストコード------------------
+		drawString("■", 30 + (mazestart.get(num).x * 16), 80 + (mazestart.get(num).y * 16), 20);
+		mazewall[mazestart.get(num).x][mazestart.get(num).y].isWall = 1;
+		mazewall[mazestart.get(num).x][mazestart.get(num).y].wallData = wallNum;
+		System.out.println(mazewall[mazestart.get(num).x][mazestart.get(num).y].isWall + " isWall");
+		//---------------------------------------
