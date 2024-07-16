@@ -143,7 +143,7 @@ public class Anahori extends MyFrame {
 					}
 				}
 				System.out.print(nowX + "," + nowY + "現在地");
-				sleep(0.0001);
+				sleep(0.05);
 				nextpath.clear();
 				setColor(0, 0, 255);
 
